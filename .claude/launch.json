@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "logo-studio",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "logo", "run", "dev", "--", "--no-open", "--port", "3210"],
+      "port": 3210
+    },
+    {
+      "name": "logo_1-studio",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "logo_1", "run", "dev", "--", "--no-open", "--port", "3211"],
+      "port": 3211
+    }
+  ]
+}
